@@ -1,1 +1,3 @@
-console.log("Сайт запущен");
+function showMessage(){
+    alert("Сайт работает 🔥");
+}
