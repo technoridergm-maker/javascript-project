@@ -1,20 +1,33 @@
-button:nth-child(16),
-button:nth-child(17) {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-    border: none;
+body{
+    background: #0f172a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+.card{
+    background: #1e293b;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
     color: white;
-    grid-column: span 2;
+    width: 300px;
 }
 
-button:nth-child(16):hover,
-button:nth-child(17):hover {
-    box-shadow: 0 12px 30px rgba(255, 107, 53, 0.4);
-    transform: translateY(-3px);
+button{
+    background: orange;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-button:nth-child(1),
-button:nth-child(5),
-button:nth-child(9),
-button:nth-child(13) {
-    color: var(--accent);
+button:hover{
+    transform: scale(1.05);
+    background: #ff9500;
 }
