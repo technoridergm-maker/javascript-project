@@ -24,10 +24,4 @@ button{
     color: white;
     font-size: 16px;
     cursor: pointer;
-    transition: 0.3s;
-}
-
-button:hover{
-    transform: scale(1.05);
-    background: #ff9500;
 }
